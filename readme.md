@@ -1,5 +1,8 @@
-<h1>Image Gallery</h1>
+# Image Gallery
 
-<p>It was my first project and it was based totally from a tutorial. In this case from the [Web Development Bootcamp course](https://www.udemy.com/the-web-developer-bootcamp/)</p>
-[Web Development Bootcamp course](https://www.udemy.com/the-web-developer-bootcamp/)
-agagd
+First project that I did. Based on a tutorial as a simple image gallery.
+
+## What was added
+
+* Flexbox - for the navbars, and also for the text inside the image
+* Grid - for the gallery image. It is adapted to fit as many images as necessary keeping the ratio

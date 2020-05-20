@@ -14,7 +14,7 @@
 <body>
     <!-- Nav bar -->
     <nav class="navbar">
-        <div>
+        <div aria-labelledby="navigation-menu">
             <ul class="navbar__navigation">
                
                 <li>
@@ -24,7 +24,7 @@
                     <a href="#">About</a>
                 </li>
                 <li>
-                    <a href="#" tager="_blank">Products</a>
+                    <a href="#" target="_blank">Products</a>
                 </li>
                 <li>
                     <a href="#" target="_blank">Contact</a>
@@ -33,87 +33,77 @@
         </div>
         <div class="navbar__social-media">
             <ul class="navbar__links">
-                <i class="fab fa-twitter "><a href="#"></a></i>
-                <i class="fab fa-linkedin"><a href="#"></a></i>
-                <i class="fab fa-github"><a href="#"></a></i>
+                <i class="fab fa-twitter "><a aria-label="twitter" href="#"></a></i>
+                <i class="fab fa-linkedin"><a aria-label="linkedin" href="#"></a></i>
+                <i class="fab fa-github"><a aria-label="github" href="#"></a></i>
             </ul>
         </div>
     </nav>
-
-    <!-- <ul class="navigation">
-        <a href="#">
-            <img id="logo" src="images/favicon-32x32.png">
-        </a>
-        <li>
-            <a href="#">Home</a>
-        </li>
-        <li>
-            <a href="#">About</a>
-        </li>
-        <li>
-            <a href="#" tager="_blank">Products</a>
-        </li>
-        <li>
-            <a href="#" target="_blank">Contact</a>
-        </li>
-    </ul> -->
     <!-- Heading -->
-    <div class="title">
-        <h1>My Food Journey</h1>
-    </div>
+    <header class="title">
+        <h1>Good Stuff Foods</h1>
+   </header>
 
     <!-- Grid -->
-    <div class="container">
-        <div class="zoom">
-            <img src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Portuguese soup" />
-            <span class="description">Portuguese tradicional Soup</span>
+    <section class="container">
+       
+        <div>
+            <img src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="First description" />
+            <span class="description">First description</span>
         </div>
-        <div class="zoom">
-            <img src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="chorizo and cheese">
-            <span class="description">The best of two Worlds</span>
+        <div>
+            <img src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Second description">
+            <span class="description">Second description</span>
         </div>
-        <div class="zoom">
-            <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="A cheese plate">
-            <span class="description">In Portugal is called
-                <em>petisco</em>
+        <div>
+            <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Third description">
+            <span class="description">Third description
             </span>
         </div>
-        <div class="zoom">
-            <img src="https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Chicken pie">
-            <span class="description">Chicken pie</span>
+        <div>
+            <img src="https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Fourth description">
+            <span class="description">Fourth description</span>
         </div>
-        <div class="zoom">
-            <img src="https://images.unsplash.com/photo-1506354666786-959d6d497f1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="destilery">
-            <span class="description">Some good liquors are made here</span>
+        <div>
+            <img src="https://images.unsplash.com/photo-1506354666786-959d6d497f1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Fifth description">
+            <span class="description">Fifth description</span>
         </div>
-        <div class="zoom">
-            <img src="https://images.unsplash.com/photo-1478145046317-39f10e56b5e9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="jam in the lake">
-            <span class="description">Tasting view</span>
+        <div>
+            <img src="https://images.unsplash.com/photo-1478145046317-39f10e56b5e9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Sixth description">
+            <span class="description">Sixth description</span>
         </div>
-        <div class="zoom">
-            <img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="table full of flavour">
-            <span class="description">A table full of flavour</span>
+        <div>
+            <img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Seventh description">
+            <span class="description">Seventh description</span>
         </div>
-        <div class="zoom">
-            <img src="https://images.unsplash.com/photo-1529042410759-befb1204b468?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="tomato jam is the best">
-            <span class="description">Tomato jam is a must</span>
+        <div>
+            <img src="https://images.unsplash.com/photo-1529042410759-befb1204b468?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Eighth description">
+            <span class="description">Eighth description</span>
         </div>
-        <div class="zoom">
-            <img src="https://images.unsplash.com/photo-1484980972926-edee96e0960d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="olive oil tasting">
-            <span class="description">Olive oil tasting</span>
+        <div>
+            <img src="https://images.unsplash.com/photo-1484980972926-edee96e0960d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Ninth description">
+            <span class="description">Ninth description</span>
         </div>
-        <div class="zoom">
-            <img src="https://images.unsplash.com/photo-1432139509613-5c4255815697?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="pea soup and chorizo">
-            <span class="description">Pea soup</span>
+        <div>
+            <img src="https://images.unsplash.com/photo-1432139509613-5c4255815697?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Tenth description">
+            <span class="description">Tenth description</span>
         </div>
-        <div class="zoom">
-            <img src="https://images.unsplash.com/photo-1485962398705-ef6a13c41e8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="sheeps">
-            <span class="description">Happy sheeps</span>
+        <div>
+            <img src="https://images.unsplash.com/photo-1485962398705-ef6a13c41e8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Eleventh description">
+            <span class="description">Eleventh description</span>
         </div>
-        <div class="zoom">
-            <img src="https://images.unsplash.com/photo-1458642849426-cfb724f15ef7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="tree blossom">
-            <span class="description">Blossom</span>
+        <div>
+            <img src="https://images.unsplash.com/photo-1458642849426-cfb724f15ef7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Twelfth description">
+            <span class="description">Twelfth description</span>
         </div>
-    </div>
+    </section>
+
+    <footer class="footer">
+        <h2 class="footer__tagline-title">
+            Good Stuff - <span class="footer__tagline">If it's good it's here</span> by
+            <span>Ricardo Moreira</span>
+        </h2>
+    </footer>
+
     </body>
 </html>
