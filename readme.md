@@ -9,4 +9,4 @@ First project that I did. Based on a tutorial as a simple image gallery.
 * **Acessibility** - Add proper structure, image alt text and some other features to make the website more acessible.
 * **BEM** - Use Block Element Modifier ( BEM) to name my classes in CSS
 
-![website](/screenshots/imagegallery.jpg)
+![website](Screenshots\imagegallery.jpg)
