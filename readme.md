@@ -10,3 +10,5 @@ First project that I did. Based on a tutorial as a simple image gallery.
 * **BEM** - Use Block Element Modifier ( BEM) to name my classes in CSS
 
 ![website](Screenshots\imagegallery.jpg)
+
+![website](Screenshots/imagegallery.jpg)
