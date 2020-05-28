@@ -1,6 +1,8 @@
 html,
 body {
   background-color: #eceee5;
+
+  margin-left: 5px;
 }
 
 /* Navbar*/
@@ -135,6 +137,9 @@ img {
 for screens over 768px(tablet)*/
 
 @media (min-width: 768px) {
+  body {
+    margin: 2px;
+  }
   .navbar {
     display: flex;
     flex-direction: row;
