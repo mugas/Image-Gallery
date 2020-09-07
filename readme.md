@@ -2,7 +2,7 @@
 
 <h1 align="center"> 🔥Image Gallery🔥</h1>
 
-<h2 align="center"> A Image Gallery with CSS </h2>
+<h2 align="center">Image Gallery with CSS </h2>
 
 ### Index
 
