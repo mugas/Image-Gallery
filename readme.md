@@ -1,5 +1,7 @@
 [![Social banner for mugas](./assets/Image_banner.png)](http://ricardomoreira.io/)
 
+[![Social banner for mugas](assets/Image_banner.png)](http://ricardomoreira.io/)
+
 <h1 align="center"> 🔥Image Gallery🔥</h1>
 
 <h2 align="center">Image Gallery made only with CSS </h2>
