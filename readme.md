@@ -2,7 +2,7 @@
 
 <h1 align="center"> 🔥Image Gallery🔥</h1>
 
-<h2 align="center">Image Gallery with CSS </h2>
+<h2 align="center">Image Gallery made only with CSS </h2>
 
 ### Index
 
@@ -26,6 +26,7 @@ Image Gallery
 [Website](https://goodstuffoodsgallery.netlify.app/)
 
 [Presentation](https://www.ricardomoreira.io/blog/2020-05-28-create-a-image-gallery)
+
 ___
 
 # Description
@@ -81,6 +82,6 @@ ____
 
 # Project-Status  
 
-Nothing to add
+Nothing to add.
 
 ____
