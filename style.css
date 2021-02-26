@@ -133,6 +133,10 @@ img {
   color: #c8882d;
 }
 
+.tutorial__footer {
+  font-size: inherit;
+  display: inline;
+}
 /*It's made for mobile first so I add media queries
 for screens over 768px(tablet)*/
 
